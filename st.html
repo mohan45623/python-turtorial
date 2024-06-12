@@ -1,0 +1,51 @@
+<html>
+<title>set</title>
+<body bgcolor="orange">
+<h1>Python set</h1>
+<P><font size="5">A Python set is the collection of the unordered items. Each element in the set must be unique, immutable, and the sets remove the duplicate elements. Sets are mutable which means we can modify it after its creation.
+
+Unlike other collections in Python, there is no index attached to the elements of the set, i.e., we cannot directly access any element of the set by the index. However, we can print them all together, or we can get the list of elements by looping through the set.
+</font>    
+<h2>creating set</h2>
+<h2>using set() method</h2>
+<P>
+<P>Days = set(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])    
+<P>print(Days)    
+<P>(type(Days))    
+<P>print("looping through the set elements ... ")    
+<P>for i in Days:    
+   <P> print(i)    
+<h2>Output:</h2>
+
+<P>{'Friday', 'Wednesday', 'Thursday', 'Saturday', 'Monday', 'Tuesday', 'Sunday'}
+<P><class 'set'>
+<P>looping through the set elements ... 
+<P>Friday
+<P>Wednesday
+<P>Thursday
+<P>Saturday
+<P>Monday
+<P>Tuesday
+<P>Sunday
+<h2>phython set operattions</h2>
+<p><font size="5">
+Set can be performed mathematical operation such as union, intersection, difference, and symmetric difference. Python provides the facility to carry out these operations with operators or methods. We describe these operations as follows.
+</font>
+<h2>Union of two Sets</h2>
+<P><font size="5">The union of two sets is calculated by using the pipe (|) operator. The union of the two sets contains all the items that are present in both the sets.</font>
+<h2>Intersection of two sets</h2>
+<p><font size="5">The intersection of two sets can be performed by the and & operator or the intersection() function. The intersection of the two sets is given as the set of the elements that common in both sets.
+<h2>Python Built-in set methods</h2>
+<P>	add(item) It adds an item to the set. It has no effect if the item is already present in the set.
+<P>2	clear()	It deletes all the items from the set.
+<P>3	copy()	It returns a shallow copy of the set.
+<P>4	difference_update(....)	It modifies this set by removing all the items that are also present in the specified sets.
+<P>5	discard(item) It removes the specified item from the set.
+<P>6	intersection()	It returns a new set that contains only the common elements of both the sets. (all the sets if more than two are specified).
+<P>7	intersection_update(....)	It removes the items from the original set that are not present in both the sets (all the sets if more than one are specified).
+<P>8	Isdisjoint(....)	Return True if two sets have a null intersection.
+<P>9	Issubset(....)	Report whether another set contains this set.
+<P>10	Issuperset(....)	Report whether this set contains another set.
+<P>11	pop()  Remove and return an arbitrary set element that is the last element of the set. Raises KeyError if the set is empty.
+ <P>12	remove(item) Remove an element from a set; it must be a member. If the element is not a member, raise a KeyError.
+
